@@ -1,0 +1,4 @@
+
+
+curl "https://twcoupon.com/brandshopcity-%e5%85%a8%e8%81%af%e7%a6%8f%e5%88%a9%e4%b8%ad%e5%bf%83-%e6%96%b0%e7%ab%b9%e5%b8%82-%e9%9b%bb%e8%a9%b1-%e5%9c%b0%e5%9d%80.html" > mxmarthtml.txt
+curl -i --user da1d9183c40a448f97dee657149d89ad:N3tt25MgpC8rs8jp05HuyXop_yU "https://ptx.transportdata.tw/MOTC/v2/Bike/Station/Hsinchu?$top=88888888&$format=JSON" > tpxapi.txt
