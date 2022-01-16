@@ -10,7 +10,7 @@ gmaps = googlemaps.Client(key='AIzaSyCMPEdKQ3Mba49lHs1KaewavK08FSTbbTw')
 
 f_mxmart = open('mxmarthtml.txt','r',encoding='UTF-8')
 
-mx_html = f_mxmart.read();
+mx_html = f_mxmart.read()
 
 soup = BeautifulSoup(mx_html,"html.parser")
 
@@ -32,9 +32,9 @@ pxmart_list = list(zip(shop, address))
 
 
 
-f_tpx = open('tpxapi.txt','r',encoding='UTF-8');
+f_tpx = open('tpxapi.txt','r',encoding='UTF-8')
 
-tpxapi_data = f_tpx.readlines()[20];
+tpxapi_data = f_tpx.readlines()[20]
 
 data = json.loads(tpxapi_data)
 

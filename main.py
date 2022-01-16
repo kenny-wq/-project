@@ -92,6 +92,7 @@ try:
         pxmart_coordinate = (A["lat"], A["lng"])
 
         distance_matrix_result = gmaps.distance_matrix(youbike_station_coordinate, pxmart_coordinate, mode='bicycling')
+        # pprint(distance_matrix_result)
         B = distance_matrix_result["rows"][0]["elements"][0]
         distance = B["distance"]["value"]
         time_ = B["duration"]["value"]
